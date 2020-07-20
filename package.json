@@ -1,0 +1,27 @@
+{
+  "name": "iam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "array-move": "^3.0.0",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-id-swiper": "^4.0.0",
+    "react-sortable-hoc": "^1.11.0",
+    "sass": "^1.26.10",
+    "swiper": "^6.0.4"
+  },
+  "devDependencies": {
+    "file-loader": "^6.0.0",
+    "url-loader": "^4.1.0"
+  }
+}

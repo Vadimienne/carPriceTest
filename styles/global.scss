@@ -1,0 +1,192 @@
+.greeting {
+    font-size: 50px;
+}
+
+.swiper-el{
+    width: 100%;
+    background-color: #5b8bec;
+    border: 1px solid #a86be1;
+}
+body{
+    background-color: #e3e3e3
+}
+
+.sorting-toggle-btn{
+    border: 1px solid #747474;
+    background-color: #c7e9ff;
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+}
+
+.swiper-container{
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+.sorting-toggle{
+    position: absolute;
+    top: 0;
+}
+
+
+
+@media screen and (min-width: 320px){
+    .device {
+        width: 350px;
+        height: 630px;
+        background-image: url('/iphone5-vertical.png');
+        background-size: cover;
+    }
+    .background {
+        width: 224px;
+        height: 398px;
+        background-image: url('/background.jpg');
+        background-size: cover;
+        position: relative;
+        bottom: 515px;
+        left: 64px
+    }
+}
+
+
+
+// IPHONE HORIFIZONTAL
+@media screen and (min-width: 568px){
+    .device {
+        width: 630px;
+        height: 350px;
+        background-image: url('/iphone5-horizontal.png');
+        background-size: cover;
+    }
+    .background {
+        width: 398px;
+        height: 224px;
+        background-image: url('/background.jpg');
+        background-size: cover;
+        position: relative;
+        bottom: 286px;
+        left: 114px
+    }
+}
+
+
+// IPAD VERTIFICAL
+@media screen and (min-width: 768px){
+    .device {
+        width: 900px;
+        height: 1080px;
+        background-image: url('/ipad-mini-vertical.png');
+        background-size: cover;
+    }
+    .background {
+        width: 553px;
+        height: 738px;
+        background-image: url('/background.jpg');
+        background-size: cover;
+        position: relative;
+        bottom: 914px;
+        left: 174px
+    }
+}
+
+// IPAD HORIFIZONTAL
+@media screen and (min-width: 1024px){
+    .device {
+        width: 1080px;
+        height: 900px;
+        background-image: url('/ipad-mini-horizontal.png');
+        background-size: cover;
+    }
+
+    .bottom-menu{
+        width: 738px;
+        height: 120px;
+        position: absolute;
+        bottom: 203px;
+        left: 174px;
+
+        background-color: rgba(255, 255, 255, 0.5);
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .app-icon{
+        width: 70px;
+        height: 70px;
+        padding: 15px 30px ;
+        user-select: none;
+    }
+
+    .menu-app-icon{
+        width: 70px;
+        height: 70px;
+        padding: 15px 20px ;
+        user-select: none;
+        -webkit-user-drag: none;
+    }
+
+    .menu-sort-container{
+        display: flex;
+        justify-content: space-between;
+        width: 100%
+    }
+    
+    .app-page{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        margin-bottom: 40px
+        //height: 100%;
+        //justify-content: center;
+        //width: 500px;
+        //height: 500px;
+    }
+    
+    .swiper-container{
+        position: absolute;
+        bottom: 327px;
+        left: 178px;
+        //margin-left: 400px;
+        //overflow: hidden;
+        width: 680px;
+        height: 430px;
+        overflow: hidden;
+        padding-left: 30px;
+        
+    }
+    
+    .swiper-slide{
+        //idth: 500px;
+        overflow: hidden;
+        // width: 736px;
+        // height: 480px;
+    }
+    
+    .swiper-wrapper{
+        //height: 100%
+        //width: 500px;
+        // width: 736px;
+        // height: 480px;
+    }
+
+    .background {
+        width: 738px;
+        height: 553px;
+        background-image: url('/background.jpg');
+        background-size: cover;
+        position: absolute;
+        bottom: 203px;
+        left: 174px
+    }
+}
+
+
